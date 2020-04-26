@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+.navbarMain{
+    background-color:transparent;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    position: fixed;
+    top:0; left: 0;
+    right: 0;
+    z-index: 1;
+    }
+    .navbarMain-alt{
+        background-color:#252525;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        position: fixed;
+        top:0; left: 0;
+        right: 0;
+        z-index: 1;
+        }
+.logo img{
+    width: 6rem;
+    height: auto;
+}
+.navbarMain ul{
+    align-items: center;
+}
+.anchorMain{
+    display: flex;
+    flex-direction: row;
+}
+.anchorItems{
+    list-style: none;
+}
+.anchorItems a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+}
+
+.anchorItems a:hover{
+    background-color: coral;
+    border-radius: 25px;
+
+}
+#main{
+    background: url("./../images/wallpaper.png")no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content:center;
+    height: 100%;
+}
+.name{
+    font-size: 2rem;
+}
+.summary{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(53, 53, 53);
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+}
+.accounts{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.accounts a{
+    padding: 0.25rem;
+}
+#down{
+    margin-top:3rem ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: auto;
+}
+.bio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: #f1f1f1; */
+    color: rgb(77, 77, 77);
+    /* margin: 3rem; */
+    font-size: 1.0rem;
+    height: 25rem;
+
+}
+.bio div{
+
+}
+.bio-right{
+    flex: 1;
+    border-radius: 2rem;
+
+}
+.bio-left{
+    /* padding: 3rem; */
+    flex: 1;
+    background: url("./../images/office.jpg")no-repeat center/cover ;
+}
+.hobbies{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    /* background-color: lawngreen; */
+    height:20rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(77, 77, 77);;
+}
+
+.nameMain{
+    display: flex;
+    margin: auto;
+    padding: 0.9rem;
+    align-items: center;
+    background-color: #cb4e3f;
+    border-radius: 30px;
+    color: wheat;
+    /* -webkit-box-shadow: 11px 9px 25px 0px rgba(138,138,138,1);
+    -moz-box-shadow: 11px 9px 25px 0px rgba(138,138,138,1);
+    box-shadow: 11px 9px 25px 0px rgba(138,138,138,1); */
+}
+.nameImage img{
+width: 6rem;
+border-radius: 100px;
+height: auto;
+margin-right: 2rem;
+}
+.nameAbout p{
+    text-align: left;
+}
+
+.extraMain{
+    display: flex;
+    margin: auto;
+    padding: 0.9rem;
+    flex-direction: row-reverse;
+    align-items:center;
+    background-color: #eccdc2;
+    border-radius: 30px;
+    /* -webkit-box-shadow: 11px 9px 25px 0px rgba(138,138,138,1);
+-moz-box-shadow: 11px 9px 25px 0px rgba(138,138,138,1);
+box-shadow: 11px 9px 25px 0px rgba(138,138,138,1); */
+}
+.extraImage img{
+width: 6rem;
+border-radius: 100px;
+height: auto;
+margin-left: 2rem;
+}
+.extraAbout p{
+    text-align: right;
+}
+
+.hobbies li{
+    list-style: none;
+}
+.legendsItems{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.legendsMain{
+    display: flex;
+    justify-content: center;
+}
+
+.legend{
+    height: 9px;
+    width: 9px;
+    background-color: rgb(71, 92, 243);
+    margin-right: 0.5rem;
+}
+#aboutMain{
+    /* padding-top: 0.45rem; */
+    text-align: center;
+    background-color: #f1f1f1;
+}
+#contactMain
+{
+    background: url("./../images/road.png")no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    font-size: 0.8rem;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactContent{
+    padding: 3em 3em;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    width: 65%;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.contactContent div{
+flex: 1;
+padding: 1rem;
+}
+.contact-right{
+    text-align: center;
+    border-left: 1px solid rgb(136, 136, 136);
+}
+
+form input {
+    outline:none;
+    border-radius: 25px;
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+textarea{
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+form button{
+    font-size: 1rem;
+    color:white;
+    background-color: rgb(0, 56, 141);
+    border: none;
+    outline:none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 25px;;
+    padding: 0.65rem 2.3rem;
+}
+
+.container {
+    padding: 3rem;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+.skillItem{
+    /* padding-left: 6rem; */
+    /* padding-right: 6.5rem; */
+
+}
+#skillMain{
+    color: #494949;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skillItem img{
+    width: 4rem;
+    height: auto;
+}
+
+.skillTitle{
+    color: black;
+    font-size: 1rem;
+    display: block;
+}
+.skillPara{
+    font-size: 0.9rem;
+}
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.chart{
+    margin:auto; 
+    text-align:center; 
+    width: 150px; 
+    height: 150px; 
+    position: relative; 
+    border-radius: 200px;
+}

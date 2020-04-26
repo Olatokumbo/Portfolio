@@ -1,0 +1,9 @@
+.container{
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.skillItem{
+    align-items: center;
+    margin-right: 4rem;
+    flex-grow:0;
+}
